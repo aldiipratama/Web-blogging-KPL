@@ -1,0 +1,26 @@
+{
+  "name": "web-blogging",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldiipratama/Web-blogging-KPL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aldiipratama/Web-blogging-KPL/issues"
+  },
+  "homepage": "https://github.com/aldiipratama/Web-blogging-KPL#readme",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.6",
+    "flowbite": "^3.1.2",
+    "tailwindcss": "^4.0.6"
+  }
+}
