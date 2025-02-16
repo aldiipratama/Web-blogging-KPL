@@ -519,9 +519,12 @@
   }
 }
 @layer utilities {
+<<<<<<< HEAD
+=======
   .pointer-events-none {
     pointer-events: none;
   }
+>>>>>>> origin/dev
   .collapse {
     visibility: collapse;
   }
@@ -1146,6 +1149,11 @@
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
+<<<<<<< HEAD
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+=======
   .inset-y-0 {
     inset-block: calc(var(--spacing) * 0);
   }
@@ -1161,6 +1169,7 @@
   .top-1\/2 {
     top: calc(1/2 * 100%);
   }
+>>>>>>> origin/dev
   .right-0 {
     right: calc(var(--spacing) * 0);
   }
@@ -1173,9 +1182,12 @@
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
+<<<<<<< HEAD
+=======
   .left-1\/2 {
     left: calc(1/2 * 100%);
   }
+>>>>>>> origin/dev
   .z-10 {
     z-index: 10;
   }
@@ -1191,6 +1203,14 @@
   .z-50 {
     z-index: 50;
   }
+<<<<<<< HEAD
+  .mx-auto {
+    margin-inline: auto;
+  }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
+=======
   .container {
     width: 100%;
     @media (width >= 40rem) {
@@ -1245,6 +1265,7 @@
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
+>>>>>>> origin/dev
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
@@ -1553,6 +1574,14 @@
       color: var(--color-gray-500) !important;
     }
   }
+<<<<<<< HEAD
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
+  .mb-6 {
+    margin-bottom: calc(var(--spacing) * 6);
+  }
+=======
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -1571,6 +1600,7 @@
   .mb-14 {
     margin-bottom: calc(var(--spacing) * 14);
   }
+>>>>>>> origin/dev
   .apexcharts-xaxistooltip {
     .apexcharts-canvas & {
       color: var(--color-gray-500) !important;
@@ -1608,9 +1638,12 @@
       border-bottom-color: var(--color-gray-700) !important;
     }
   }
+<<<<<<< HEAD
+=======
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
   }
+>>>>>>> origin/dev
   .ml-auto {
     margin-left: auto;
   }
@@ -1628,9 +1661,12 @@
   .flex {
     display: flex;
   }
+<<<<<<< HEAD
+=======
   .grid {
     display: grid;
   }
+>>>>>>> origin/dev
   .hidden {
     display: none;
   }
@@ -1646,6 +1682,11 @@
   .table {
     display: table;
   }
+<<<<<<< HEAD
+  .h-5 {
+    height: calc(var(--spacing) * 5);
+  }
+=======
   .h-4 {
     height: calc(var(--spacing) * 4);
   }
@@ -1655,12 +1696,20 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
+>>>>>>> origin/dev
   .h-8 {
     height: calc(var(--spacing) * 8);
   }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
+<<<<<<< HEAD
+  .h-\[calc\(100\%-1rem\)\] {
+    height: calc(100% - 1rem);
+  }
+  .h-screen {
+    height: 100vh;
+=======
   .h-56 {
     height: calc(var(--spacing) * 56);
   }
@@ -1678,13 +1727,17 @@
   }
   .h-full {
     height: 100%;
+>>>>>>> origin/dev
   }
   .max-h-full {
     max-height: 100%;
   }
+<<<<<<< HEAD
+=======
   .min-h-screen {
     min-height: 100vh;
   }
+>>>>>>> origin/dev
   .datatable-table {
     .datatable-wrapper & {
       width: 100%;
@@ -1768,6 +1821,14 @@
       text-align: center;
     }
   }
+<<<<<<< HEAD
+  .w-5 {
+    width: calc(var(--spacing) * 5);
+  }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
+=======
   .w-4 {
     width: calc(var(--spacing) * 4);
   }
@@ -1786,27 +1847,34 @@
   .w-\[200px\] {
     width: 200px;
   }
+>>>>>>> origin/dev
   .w-full {
     width: 100%;
   }
   .max-w-2xl {
     max-width: var(--container-2xl);
   }
+<<<<<<< HEAD
+=======
   .max-w-\[1250px\] {
     max-width: 1250px;
   }
   .max-w-full {
     max-width: 100%;
   }
+>>>>>>> origin/dev
   .max-w-screen-xl {
     max-width: var(--breakpoint-xl);
   }
   .max-w-sm {
     max-width: var(--container-sm);
   }
+<<<<<<< HEAD
+=======
   .max-w-xl {
     max-width: var(--container-xl);
   }
+>>>>>>> origin/dev
   .datatable-input {
     .datatable-wrapper .datatable-search & {
       color: var(--color-gray-900);
@@ -1875,18 +1943,24 @@
   .border-collapse {
     border-collapse: collapse;
   }
+<<<<<<< HEAD
+=======
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1/2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+>>>>>>> origin/dev
   .-translate-x-full {
     --tw-translate-x: -100%;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+<<<<<<< HEAD
+=======
   .-translate-y-1\/2 {
     --tw-translate-y: calc(calc(1/2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+>>>>>>> origin/dev
   .-translate-y-full {
     --tw-translate-y: -100%;
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -1912,6 +1986,11 @@
   .transform-none {
     transform: none;
   }
+<<<<<<< HEAD
+  .resize {
+    resize: both;
+  }
+=======
   .cursor-pointer {
     cursor: pointer;
   }
@@ -1927,6 +2006,7 @@
   .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+>>>>>>> origin/dev
   .flex-col {
     flex-direction: column;
   }
@@ -1954,6 +2034,8 @@
   .justify-start {
     justify-content: flex-start;
   }
+<<<<<<< HEAD
+=======
   .gap-0 {
     gap: calc(var(--spacing) * 0);
   }
@@ -1963,6 +2045,7 @@
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
+>>>>>>> origin/dev
   .space-y-6 {
     :where(& > :not(:last-child)) {
       --tw-space-y-reverse: 0;
@@ -1984,6 +2067,11 @@
       margin-inline-end: calc(calc(var(--spacing) * 3) * calc(1 - var(--tw-space-x-reverse)));
     }
   }
+<<<<<<< HEAD
+  .self-center {
+    align-self: center;
+  }
+=======
   .space-x-6 {
     :where(& > :not(:last-child)) {
       --tw-space-x-reverse: 0;
@@ -2019,6 +2107,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+>>>>>>> origin/dev
   .overflow-hidden {
     overflow: hidden;
   }
@@ -2039,9 +2128,12 @@
   .rounded {
     border-radius: 0.25rem;
   }
+<<<<<<< HEAD
+=======
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
+>>>>>>> origin/dev
   .rounded-lg {
     border-radius: var(--radius-lg);
   }
@@ -2060,10 +2152,13 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+<<<<<<< HEAD
+=======
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
+>>>>>>> origin/dev
   .border-t {
     border-top-style: var(--tw-border-style);
     border-top-width: 1px;
@@ -2217,9 +2312,12 @@
   .border-gray-300 {
     border-color: var(--color-gray-300);
   }
+<<<<<<< HEAD
+=======
   .border-white {
     border-color: var(--color-white);
   }
+>>>>>>> origin/dev
   .apexcharts-active {
     .apexcharts-canvas .apexcharts-tooltip-series-group& .apexcharts-tooltip-y-group {
       padding: 0 !important;
@@ -2258,12 +2356,15 @@
       padding-top: 0.75rem !important;
     }
   }
+<<<<<<< HEAD
+=======
   .bg-\[\#141414\] {
     background-color: #141414;
   }
   .bg-\[\#B82132\] {
     background-color: #B82132;
   }
+>>>>>>> origin/dev
   .bg-black {
     background-color: var(--color-black);
   }
@@ -2288,9 +2389,12 @@
   .bg-white {
     background-color: var(--color-white);
   }
+<<<<<<< HEAD
+=======
   .bg-white\/30 {
     background-color: color-mix(in oklab, var(--color-white) 30%, transparent);
   }
+>>>>>>> origin/dev
   .bg-white\/50 {
     background-color: color-mix(in oklab, var(--color-white) 50%, transparent);
   }
@@ -2307,6 +2411,8 @@
       background-color: var(--color-gray-700);
     }
   }
+<<<<<<< HEAD
+=======
   .bg-linear-to-t {
     --tw-gradient-position: to top in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
@@ -2324,6 +2430,7 @@
     --tw-gradient-to: #B82132;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
+>>>>>>> origin/dev
   .apexcharts-text {
     .apexcharts-datalabels-group &.apexcharts-datalabel-value {
       fill: var(--color-gray-900) !important;
@@ -2423,12 +2530,15 @@
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
+<<<<<<< HEAD
+=======
   .p-2\.5 {
     padding: calc(var(--spacing) * 2.5);
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
   }
+>>>>>>> origin/dev
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
@@ -2438,6 +2548,14 @@
   .p-8 {
     padding: calc(var(--spacing) * 8);
   }
+<<<<<<< HEAD
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
+=======
   .p-\[2px\] {
     padding: 2px;
   }
@@ -2456,12 +2574,15 @@
   .px-\[8px\] {
     padding-inline: 8px;
   }
+>>>>>>> origin/dev
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
   .py-2\.5 {
     padding-block: calc(var(--spacing) * 2.5);
   }
+<<<<<<< HEAD
+=======
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
@@ -2483,6 +2604,7 @@
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
+>>>>>>> origin/dev
   .search-filtering-row {
     .datatable-wrapper .datatable-container thead tr& th {
       padding-top: 0;
@@ -2516,9 +2638,12 @@
   .text-center {
     text-align: center;
   }
+<<<<<<< HEAD
+=======
   .text-justify {
     text-align: justify;
   }
+>>>>>>> origin/dev
   .font-sans {
     font-family: var(--font-sans);
   }
@@ -2526,10 +2651,13 @@
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
+<<<<<<< HEAD
+=======
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
+>>>>>>> origin/dev
   .text-base {
     font-size: var(--text-base);
     line-height: var(--tw-leading, var(--text-base--line-height));
@@ -2542,10 +2670,13 @@
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
+<<<<<<< HEAD
+=======
   .text-xs {
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
+>>>>>>> origin/dev
   .apexcharts-datalabels {
     .apexcharts-canvas & .apexcharts-text.apexcharts-pie-label {
       font-size: 0.75rem,[object Object] !important;
@@ -2595,6 +2726,8 @@
       color: var(--color-gray-400);
     }
   }
+<<<<<<< HEAD
+=======
   .text-\[1\.2rem\] {
     font-size: 1.2rem;
   }
@@ -2616,10 +2749,13 @@
     --tw-leading: var(--leading-normal);
     line-height: var(--leading-normal);
   }
+>>>>>>> origin/dev
   .leading-relaxed {
     --tw-leading: var(--leading-relaxed);
     line-height: var(--leading-relaxed);
   }
+<<<<<<< HEAD
+=======
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -2632,22 +2768,29 @@
     --tw-font-weight: var(--font-weight-light);
     font-weight: var(--font-weight-light);
   }
+>>>>>>> origin/dev
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
   }
+<<<<<<< HEAD
+=======
   .font-normal {
     --tw-font-weight: var(--font-weight-normal);
     font-weight: var(--font-weight-normal);
   }
+>>>>>>> origin/dev
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
+<<<<<<< HEAD
+=======
   .tracking-tight {
     --tw-tracking: var(--tracking-tight);
     letter-spacing: var(--tracking-tight);
   }
+>>>>>>> origin/dev
   .whitespace-nowrap {
     white-space: nowrap;
   }
@@ -2690,36 +2833,53 @@
       color: white;
     }
   }
+<<<<<<< HEAD
+=======
   .text-\[\#B82132\] {
     color: #B82132;
   }
   .text-\[\#FFEE00\] {
     color: #FFEE00;
   }
+>>>>>>> origin/dev
   .text-black {
     color: var(--color-black);
   }
   .text-blue-600 {
     color: var(--color-blue-600);
   }
+<<<<<<< HEAD
+  .text-cyan-700 {
+    color: var(--color-cyan-700);
+  }
+=======
+>>>>>>> origin/dev
   .text-gray-400 {
     color: var(--color-gray-400);
   }
   .text-gray-500 {
     color: var(--color-gray-500);
   }
+<<<<<<< HEAD
+  .text-gray-600 {
+    color: var(--color-gray-600);
+=======
   .text-gray-700 {
     color: var(--color-gray-700);
   }
   .text-gray-800 {
     color: var(--color-gray-800);
+>>>>>>> origin/dev
   }
   .text-gray-900 {
     color: var(--color-gray-900);
   }
+<<<<<<< HEAD
+=======
   .text-red-500 {
     color: var(--color-red-500);
   }
+>>>>>>> origin/dev
   .text-red-600 {
     color: var(--color-red-600);
   }
@@ -2729,6 +2889,12 @@
   .uppercase {
     text-transform: uppercase;
   }
+<<<<<<< HEAD
+  .italic {
+    font-style: italic;
+  }
+=======
+>>>>>>> origin/dev
   .underline {
     text-decoration-line: underline;
   }
@@ -2746,10 +2912,13 @@
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
+<<<<<<< HEAD
+=======
   .shadow-xl {
     --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
+>>>>>>> origin/dev
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
@@ -2780,6 +2949,11 @@
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
+<<<<<<< HEAD
+  .duration-200 {
+    --tw-duration: 200ms;
+    transition-duration: 200ms;
+=======
   .duration-700 {
     --tw-duration: 700ms;
     transition-duration: 700ms;
@@ -2787,11 +2961,14 @@
   .ease-in-out {
     --tw-ease: var(--ease-in-out);
     transition-timing-function: var(--ease-in-out);
+>>>>>>> origin/dev
   }
   .ease-out {
     --tw-ease: var(--ease-out);
     transition-timing-function: var(--ease-out);
   }
+<<<<<<< HEAD
+=======
   .group-hover\:bg-white\/50 {
     &:is(:where(.group):hover *) {
       @media (hover: hover) {
@@ -2816,6 +2993,7 @@
       outline-style: none;
     }
   }
+>>>>>>> origin/dev
   .hover\:border-gray-300 {
     &:hover {
       @media (hover: hover) {
@@ -2879,16 +3057,29 @@
       }
     }
   }
+<<<<<<< HEAD
+  .hover\:underline {
+    &:hover {
+      @media (hover: hover) {
+        text-decoration-line: underline;
+      }
+    }
+  }
+=======
+>>>>>>> origin/dev
   .focus\:z-10 {
     &:focus {
       z-index: 10;
     }
   }
+<<<<<<< HEAD
+=======
   .focus\:border-blue-500 {
     &:focus {
       border-color: var(--color-blue-500);
     }
   }
+>>>>>>> origin/dev
   .focus\:ring-2 {
     &:focus {
       --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
@@ -2906,21 +3097,27 @@
       --tw-ring-color: var(--color-blue-300);
     }
   }
+<<<<<<< HEAD
+=======
   .focus\:ring-blue-500 {
     &:focus {
       --tw-ring-color: var(--color-blue-500);
     }
   }
+>>>>>>> origin/dev
   .focus\:ring-gray-200 {
     &:focus {
       --tw-ring-color: var(--color-gray-200);
     }
   }
+<<<<<<< HEAD
+=======
   .focus\:ring-red-500 {
     &:focus {
       --tw-ring-color: var(--color-red-500);
     }
   }
+>>>>>>> origin/dev
   .focus\:outline-none {
     &:focus {
       --tw-outline-style: none;
@@ -2932,6 +3129,11 @@
       inset: calc(var(--spacing) * 0);
     }
   }
+<<<<<<< HEAD
+  .md\:mt-0 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 0);
+=======
   .md\:order-1 {
     @media (width >= 48rem) {
       order: 1;
@@ -2945,6 +3147,7 @@
   .md\:me-0 {
     @media (width >= 48rem) {
       margin-inline-end: calc(var(--spacing) * 0);
+>>>>>>> origin/dev
     }
   }
   .md\:block {
@@ -2952,16 +3155,21 @@
       display: block;
     }
   }
+<<<<<<< HEAD
+=======
   .md\:flex {
     @media (width >= 48rem) {
       display: flex;
     }
   }
+>>>>>>> origin/dev
   .md\:hidden {
     @media (width >= 48rem) {
       display: none;
     }
   }
+<<<<<<< HEAD
+=======
   .md\:h-96 {
     @media (width >= 48rem) {
       height: calc(var(--spacing) * 96);
@@ -2972,21 +3180,78 @@
       width: 1045px;
     }
   }
+>>>>>>> origin/dev
   .md\:w-auto {
     @media (width >= 48rem) {
       width: auto;
     }
   }
+<<<<<<< HEAD
+=======
   .md\:max-w-xl {
     @media (width >= 48rem) {
       max-width: var(--container-xl);
     }
   }
+>>>>>>> origin/dev
   .md\:flex-row {
     @media (width >= 48rem) {
       flex-direction: row;
     }
   }
+<<<<<<< HEAD
+  .md\:space-x-8 {
+    @media (width >= 48rem) {
+      :where(& > :not(:last-child)) {
+        --tw-space-x-reverse: 0;
+        margin-inline-start: calc(calc(var(--spacing) * 8) * var(--tw-space-x-reverse));
+        margin-inline-end: calc(calc(var(--spacing) * 8) * calc(1 - var(--tw-space-x-reverse)));
+      }
+    }
+  }
+  .md\:border-0 {
+    @media (width >= 48rem) {
+      border-style: var(--tw-border-style);
+      border-width: 0px;
+    }
+  }
+  .md\:bg-transparent {
+    @media (width >= 48rem) {
+      background-color: transparent;
+    }
+  }
+  .md\:bg-white {
+    @media (width >= 48rem) {
+      background-color: var(--color-white);
+    }
+  }
+  .md\:p-0 {
+    @media (width >= 48rem) {
+      padding: calc(var(--spacing) * 0);
+    }
+  }
+  .md\:text-blue-700 {
+    @media (width >= 48rem) {
+      color: var(--color-blue-700);
+    }
+  }
+  .md\:hover\:bg-transparent {
+    @media (width >= 48rem) {
+      &:hover {
+        @media (hover: hover) {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+  .md\:hover\:text-blue-700 {
+    @media (width >= 48rem) {
+      &:hover {
+        @media (hover: hover) {
+          color: var(--color-blue-700);
+        }
+      }
+=======
   .md\:space-x-0 {
     @media (width >= 48rem) {
       :where(& > :not(:last-child)) {
@@ -3045,6 +3310,7 @@
   .rtl\:rotate-180 {
     &:where(:dir(rtl), [dir="rtl"], [dir="rtl"] *) {
       rotate: 180deg;
+>>>>>>> origin/dev
     }
   }
   .rtl\:space-x-reverse {
@@ -3054,6 +3320,8 @@
       }
     }
   }
+<<<<<<< HEAD
+=======
   .dark\:divide-gray-600 {
     @media (prefers-color-scheme: dark) {
       :where(& > :not(:last-child)) {
@@ -3061,6 +3329,7 @@
       }
     }
   }
+>>>>>>> origin/dev
   .dark\:border-blue-500 {
     @media (prefers-color-scheme: dark) {
       border-color: var(--color-blue-500);
@@ -3101,16 +3370,27 @@
       background-color: var(--color-gray-800);
     }
   }
+<<<<<<< HEAD
+=======
   .dark\:bg-gray-800\/30 {
     @media (prefers-color-scheme: dark) {
       background-color: color-mix(in oklab, var(--color-gray-800) 30%, transparent);
     }
   }
+>>>>>>> origin/dev
   .dark\:bg-gray-800\/50 {
     @media (prefers-color-scheme: dark) {
       background-color: color-mix(in oklab, var(--color-gray-800) 50%, transparent);
     }
   }
+<<<<<<< HEAD
+  .dark\:bg-gray-900 {
+    @media (prefers-color-scheme: dark) {
+      background-color: var(--color-gray-900);
+    }
+  }
+=======
+>>>>>>> origin/dev
   .dark\:bg-gray-900\/80 {
     @media (prefers-color-scheme: dark) {
       background-color: color-mix(in oklab, var(--color-gray-900) 80%, transparent);
@@ -3121,11 +3401,14 @@
       color: var(--color-blue-500);
     }
   }
+<<<<<<< HEAD
+=======
   .dark\:text-gray-200 {
     @media (prefers-color-scheme: dark) {
       color: var(--color-gray-200);
     }
   }
+>>>>>>> origin/dev
   .dark\:text-gray-300 {
     @media (prefers-color-scheme: dark) {
       color: var(--color-gray-300);
@@ -3136,16 +3419,21 @@
       color: var(--color-gray-400);
     }
   }
+<<<<<<< HEAD
+=======
   .dark\:text-gray-800 {
     @media (prefers-color-scheme: dark) {
       color: var(--color-gray-800);
     }
   }
+>>>>>>> origin/dev
   .dark\:text-white {
     @media (prefers-color-scheme: dark) {
       color: var(--color-white);
     }
   }
+<<<<<<< HEAD
+=======
   .dark\:group-hover\:bg-gray-800\/60 {
     @media (prefers-color-scheme: dark) {
       &:is(:where(.group):hover *) {
@@ -3162,6 +3450,7 @@
       }
     }
   }
+>>>>>>> origin/dev
   .dark\:hover\:bg-blue-700 {
     @media (prefers-color-scheme: dark) {
       &:hover {
@@ -3239,10 +3528,46 @@
       }
     }
   }
+<<<<<<< HEAD
+  .md\:dark\:bg-gray-900 {
+    @media (width >= 48rem) {
+      @media (prefers-color-scheme: dark) {
+        background-color: var(--color-gray-900);
+      }
+    }
+  }
+  .md\:dark\:text-blue-500 {
+    @media (width >= 48rem) {
+      @media (prefers-color-scheme: dark) {
+        color: var(--color-blue-500);
+      }
+    }
+  }
+  .md\:dark\:hover\:bg-transparent {
+    @media (width >= 48rem) {
+      @media (prefers-color-scheme: dark) {
+        &:hover {
+          @media (hover: hover) {
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+  .md\:dark\:hover\:text-blue-500 {
+    @media (width >= 48rem) {
+      @media (prefers-color-scheme: dark) {
+        &:hover {
+          @media (hover: hover) {
+            color: var(--color-blue-500);
+          }
+        }
+=======
   .dark\:focus\:ring-gray-700 {
     @media (prefers-color-scheme: dark) {
       &:focus {
         --tw-ring-color: var(--color-gray-700);
+>>>>>>> origin/dev
       }
     }
   }
@@ -3718,16 +4043,21 @@
   inherits: false;
   initial-value: 0;
 }
+<<<<<<< HEAD
+=======
 @property --tw-divide-y-reverse {
   syntax: "*";
   inherits: false;
   initial-value: 0;
 }
+>>>>>>> origin/dev
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
   initial-value: solid;
 }
+<<<<<<< HEAD
+=======
 @property --tw-gradient-position {
   syntax: "*";
   inherits: false;
@@ -3770,6 +4100,7 @@
   inherits: false;
   initial-value: 100%;
 }
+>>>>>>> origin/dev
 @property --tw-leading {
   syntax: "*";
   inherits: false;
@@ -3778,10 +4109,13 @@
   syntax: "*";
   inherits: false;
 }
+<<<<<<< HEAD
+=======
 @property --tw-tracking {
   syntax: "*";
   inherits: false;
 }
+>>>>>>> origin/dev
 @property --tw-shadow {
   syntax: "*";
   inherits: false;
