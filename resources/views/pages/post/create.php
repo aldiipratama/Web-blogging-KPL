@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../../css/global.css">
     <title>FrontendLab - Create Post</title>
 </head>
 
 <body class="bg-gray-100">
-    <?php include "../components/navbar.php" ?>
+    <?php include "../../components/navbar.php" ?>
 
     <div class="min-h-screen flex items-center justify-center bg-gray-100 px-4 lg:px-16">
         <div class="w-full max-w-[1250px] bg-white rounded-lg shadow-lg p-8 flex flex-col items-center">
@@ -116,6 +116,8 @@
     </script>
 
     <script src="../../../../node_modules/flowbite/dist/flowbite.min.js"></script>
+
+    <?php include "../../components/footer.php" ?>
 </body>
 
 </html>
