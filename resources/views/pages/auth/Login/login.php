@@ -1,3 +1,8 @@
+<?php 
+session_start();
+require_once (__DIR__ . '/../../../../../config/csrf.php');
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 
@@ -14,9 +19,10 @@
     <?php include(__DIR__ . '/../../../components/navbar.php'); ?>
 
     <main class="flex-grow flex justify-center items-center">
-        <div class="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full">
+        <div class="bg-white p-8 rounded-lg shadow-lg my-24 max-w-sm w-full">
             <h2 class="text-2xl font-semibold text-center text-black mb-6">Login</h2>
-            <form action="/login" method="">
+            <form action="../../../Home.php" method="POST">
+                <input type="hidden" name="csrf_token" value="<?= generateCsrfToken(); ?>">
                 <div class="mb-4">
                     <label for="email" class="block text-sm text-black">Email</label>
                     <input type="email" id="email" name="email" class="w-full p-2 border border-gray-300 rounded mt-1"
