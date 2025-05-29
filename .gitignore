@@ -1,0 +1,9 @@
+./node_modules
+./vendor
+./.env
+./app/logs/*.log
+
+./composer.lock
+./package-*
+
+./public/css/style.css
