@@ -1,7 +1,8 @@
 {
   "scripts": {
     "tailwind:build" : "npx @tailwindcss/cli -i ./public/css/input.css -o ./public/css/style.css --build",
-    "tailwind:watch" : "npx @tailwindcss/cli -i ./public/css/input.css -o ./public/css/style.css --watch"
+    "tailwind:watch" : "npx @tailwindcss/cli -i ./public/css/input.css -o ./public/css/style.css --watch",
+    "key:generate" : " php app/config/generate-key.php"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.8",

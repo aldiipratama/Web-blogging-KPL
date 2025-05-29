@@ -1,10 +1,10 @@
 <?php
 
 class Database {
-    private $host = DB_HOST;
-    private $user = DB_USER;
-    private $pass = DB_PASS;
-    private $db_name = DB_NAME;
+    private $host;
+    private $user;
+    private $pass;
+    private $db_name;
 
     private $conn;
     private $stmt;
@@ -12,6 +12,11 @@ class Database {
 
     public function __construct()
     {
+        $this->host = $_ENV['DB_HOST'];
+        $this->user = $_ENV['DB_USER'];
+        $this->pass = $_ENV['DB_PASS'];
+        $this->db_name = $_ENV['DB_NAME'];
+        
         $this->conn = new mysqli($this->host, $this->user, $this->pass, $this->db_name);
 
         if ($this->conn->connect_error) {

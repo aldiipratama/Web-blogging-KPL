@@ -102,10 +102,11 @@ class App
         
         else if (isset($_SERVER['REQUEST_URI'])) {
             $request_uri = $_SERVER['REQUEST_URI'];
-            $base_url_path = parse_url(BASEURL, PHP_URL_PATH); 
+            $base_url_path = (string) parse_url(BASEURL, PHP_URL_PATH); 
 
-            
-            
+            if (empty($base_url_path) || $base_url_path === '/') {
+                $base_url_path = '/';
+            }
             
             if (strpos($request_uri, $base_url_path) === 0) {
                 $url = substr($request_uri, strlen($base_url_path));
