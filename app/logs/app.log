@@ -1,0 +1,26 @@
+[2025-05-29 12:10:38] [ERROR] Failed to register user: aldiipratama
+[2025-05-29 12:11:05] [ERROR] Failed to register user: alx.dyy
+[2025-05-29 12:19:36] [ERROR] Failed to register user: aldxprtm_ (unknown reason)
+[2025-05-29 12:23:31] [INFO] User ID:  | Username: aldiipratama | Activity: User registered successfully.
+[2025-05-29 12:23:44] [INFO] User ID: 6 | Username: aldiipratama | Activity: Logged in successfully.
+[2025-05-29 12:23:59] [INFO] User ID: 6 | Username: aldiipratama | Activity: Logged out.
+[2025-05-29 12:25:26] [INFO] User ID: 6 | Username: aldiipratama | Activity: Logged in successfully.
+[2025-05-29 12:25:57] [INFO] User ID: 6 | Username: aldiipratama | Activity: Created new article: 'post 1'
+[2025-05-29 12:26:24] [INFO] New comment added to article ID: 1 by aldi
+[2025-05-29 12:30:58] [INFO] New comment added to article ID: 1 by aldi
+[2025-05-29 12:31:06] [INFO] User ID: 6 | Username: aldiipratama | Activity: Approved comment ID: 2
+[2025-05-29 12:48:47] [INFO] User ID: 6 | Username: aldiipratama | Activity: Created new article: 'post 2'
+[2025-05-29 12:49:06] [INFO] User ID: 6 | Username: aldiipratama | Activity: Created new article: 'post 3'
+[2025-05-29 12:49:39] [INFO] User ID: 6 | Username: aldiipratama | Activity: Created new article: 'post 4'
+[2025-05-29 12:49:58] [INFO] User ID: 6 | Username: aldiipratama | Activity: Updated article ID: 4 ('post 4')
+[2025-05-29 12:50:11] [INFO] User ID: 6 | Username: aldiipratama | Activity: Updated article ID: 4 ('post 4')
+[2025-05-29 12:50:24] [INFO] User ID: 6 | Username: aldiipratama | Activity: Updated article ID: 4 ('post 4')
+[2025-05-29 12:50:29] [INFO] User ID: 6 | Username: aldiipratama | Activity: Logged out.
+[2025-05-29 13:12:40] [WARNING] CAPTCHA gagal saat login dari IP: 127.0.0.1
+[2025-05-29 13:12:47] [INFO] User ID: 6 | Username: aldiipratama | Activity: Logged in successfully.
+[2025-05-29 13:12:57] [INFO] User ID: 6 | Username: aldiipratama | Activity: Logged out.
+[2025-05-29 13:13:03] [WARNING] CAPTCHA gagal saat login dari IP: 127.0.0.1
+[2025-05-29 13:13:10] [WARNING] Failed login attempt for username: asd (username not found) from IP: 127.0.0.1
+[2025-05-29 13:13:23] [WARNING] Failed login attempt for username: aldiipratama (wrong password) from IP: 127.0.0.1
+[2025-05-29 13:40:20] [INFO] User ID: 6 | Username: aldiipratama | Activity: Logged in successfully.
+[2025-05-29 13:40:33] [INFO] User ID: 6 | Username: aldiipratama | Activity: Logged out.

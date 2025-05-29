@@ -1,7 +1,9 @@
 <?php
 
-include "../app/init.php";
+if (!session_id()) {
+    session_start();
+}
 
-$app = new App();
+require_once '../app/init.php';
 
-// include "../resources/views/Home.php";
+$app = new App;
